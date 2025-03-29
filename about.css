@@ -1,0 +1,267 @@
+/* About Page Css */
+
+/* About Heading */
+.about-heading{
+    position: absolute;
+    top: 5vw;
+}
+
+/* About page2 */
+
+#about-page2{
+    height: 110vh;
+
+}
+
+#about-page2-left{
+    height: 75%;
+}
+
+
+
+/* About page3 */
+
+#about-page3{
+    height: 98vh;
+    background-image: url("./Images/About-Page3-Bg-Img.webp");
+    position: relative;
+}
+
+#about-page3 .about-heading{
+    color: #ffffffe7;
+}
+
+.about-left{
+    height: 75% ;
+    margin-top: 5vw;
+    width: 50%;
+}
+
+#about-left h1{
+    color: #ffffffe7;
+}
+
+.about-left .paragraph{
+    color: #dbdbdb;
+}
+
+.about-left .page2-text h4{
+    color: #dbdbdb;
+}
+
+.about-right{
+    height: 55% ;
+    margin-top: 8vw;
+    width: 50%;
+}
+
+#buttondiv{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+}
+
+.button{
+    width: 33.4%;
+    height: 100%;
+    border: none;
+    color: #dbdbdb;
+    cursor: pointer;
+    background-color: #10102E;
+    transition: all ease 0.2s;
+    font-size: 1.2vw;
+    font-family: mediumm;
+    border-bottom: 0.4vw solid #ff9900;
+}
+
+#button1{
+    background-color: #ff9900;
+}
+
+
+
+#mainContainer{
+    width: 100%;
+    height: calc(100% - 4vw);
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2vw;
+    transition: all ease 0.2s;
+    padding-top: 1.5vw;
+}
+
+.container-img{
+    height: 100%;
+    width: 40%;
+    border-radius: 0.8vw;
+    object-fit: cover;
+}
+
+.container-text{
+    height: 100%;
+    width: 56.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.container-text .page2-text{
+    width: 100%;
+}
+.container-text .page2-text h4{
+    color: #dbdbdb;
+}
+
+#container2, #container3{
+    left: 100%;
+}
+
+
+/* About Page4 */
+#about-page4{
+    width: 100%;
+    height: 115vh;
+    background-image: url("./Images/Features-Page-bg-img.webp");
+    background-size: cover;
+    position: relative;
+    padding: 0vw;
+}
+
+#about-page4 .about-heading{
+    color: black;
+}
+
+#about-page4 .about-heading{
+    width: 40%;
+}
+
+#about-page4 .about-heading .main-heading, .buttons{
+    margin-top: 1.5vw;
+}
+
+
+#about-page4 .overlay{
+    background-color: #ffffffb9;
+    justify-content: center;
+    padding-top: 8vw;
+}
+
+.about-page4-img{
+    width: 40%;
+    height: 60%;
+    margin-top: 13vw;
+    border-radius: 0.5vw;
+    position: relative;
+}
+
+.about-page4-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5vw;
+}
+
+.top-div{
+    width: 80%;
+    height: 25%;
+    background-color: #ff9900;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    -webkit-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    transform: perspective(500px) rotateX(90deg);
+    border-top-left-radius: 0.4vw;
+    border-top-right-radius: 0.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-div .main-heading{
+    font-size: 2vw;
+}
+
+.bottom-div{
+    width: 80%;
+    height: 20%;
+    background-color: #10102E;
+    position: absolute;
+    bottom: -8%;
+    left: 10%;
+    border-bottom-left-radius: 0.4vw;
+    border-bottom-right-radius: 0.4vw;
+    -webkit-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    transform: perspective(500px) rotateX(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-div .buttons{
+    padding: 0.5vw 1vw;
+    border-radius: 0.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.about-page4-img:hover .top-div{
+    transform: perspective(500px) rotateX(0deg);
+}
+.about-page4-img:hover .bottom-div{
+    transform: perspective(500px) rotateX(0deg);
+}
+
+
+#about-service-page{
+    height: 120vh;
+    background-image: url("./Images/why-choose-bg.webp");
+}
+
+.about-service{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+}
+
+.about-service .serv-container{
+    align-items: start;
+    width: 30%;
+    box-shadow: none;
+    border: 0.4vw solid #ff9900;
+    padding: 0vw 1vw;
+}
+
+.about-service .serv-container .circle{
+    left: 10%;
+}
+
+.about-service .serv-container h2{
+    margin: 2vw 0vw;
+    text-align: left;
+}
+
+.about-service .serv-container h2 span{
+    color: #ff9900;
+}
+
+.about-service .serv-container .page2-text{
+    width: 100%;
+}
+
+
+
