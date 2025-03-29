@@ -76,7 +76,7 @@
     .page1 #nav1 {
         width: 100%;
         height: 13vw;
-        background-color: #1B1F2E;
+        background-color: #045498;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -135,7 +135,7 @@
     .navs {
         width: 100%;
         height: 12vw;
-        background-color: #ff9900;
+        background-color: #E7F4FB;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -220,7 +220,7 @@
         width: 85%;
         height: 50vh;
         transition: all ease 0.4s;
-        background-color: #0B0616;
+        background-color: #035096;
     }
 
     /* buttons code */
@@ -844,7 +844,7 @@
     #button1,
     #button2,
     #button3 {
-        border-bottom: 1.2vw solid #ff9900;
+        border-bottom: 1.2vw solid #035096;
         font-size: 2.5vw;
         letter-spacing: 0.15vw;
     }

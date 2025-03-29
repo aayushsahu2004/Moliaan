@@ -455,8 +455,11 @@ if (window.location.pathname == "/about.html") {
 
     button1.addEventListener("click", function () {
       button1.style.backgroundColor = "#035096";
-      button2.style.backgroundColor = "#10102E";
-      button3.style.backgroundColor = "#10102E";
+      button1.style.color = "#E7F4FB"
+      button2.style.backgroundColor = "#E7F4FB";
+      button2.style.color = "#035096";
+      button3.style.backgroundColor = "#E7F4FB";
+      button3.style.color = "#035096";
       container1.style.left = "0%";
       container2.style.left = "100%";
       container3.style.left = "100%";
@@ -464,8 +467,11 @@ if (window.location.pathname == "/about.html") {
 
     button2.addEventListener("click", function () {
       button2.style.backgroundColor = "#035096";
-      button1.style.backgroundColor = "#10102E";
-      button3.style.backgroundColor = "#10102E";
+      button2.style.color = "#E7F4FB"
+      button1.style.backgroundColor = "#E7F4FB";
+      button1.style.color = "#035096";
+      button3.style.backgroundColor = "#E7F4FB";
+      button3.style.color = "#035096";
       container2.style.left = "0%";
       container3.style.left = "100%";
       container1.style.left = "-100%";
@@ -473,8 +479,11 @@ if (window.location.pathname == "/about.html") {
 
     button3.addEventListener("click", function () {
       button3.style.backgroundColor = "#035096";
-      button1.style.backgroundColor = "#10102E";
-      button2.style.backgroundColor = "#10102E";
+      button3.style.color = "#E7F4FB"
+      button1.style.backgroundColor = "#E7F4FB";
+      button1.style.color = "#035096";
+      button2.style.backgroundColor = "#E7F4FB";
+      button2.style.color = "#035096";
       container3.style.left = "0%";
       container1.style.left = "-100%";
       container2.style.left = "-100%";

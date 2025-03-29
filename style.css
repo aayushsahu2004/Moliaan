@@ -71,11 +71,11 @@ html {
 .head-text{
     width: 18vw;
     height: 4vw; 
-    border-right: 0.2vw solid #60606166;
+    border-right: 0.2vw solid #a2e0ff9f;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 1vw;
     cursor: default;
 }
 
@@ -124,7 +124,7 @@ html {
     width: 100%;
     height: 4vw;
     /* background-color: #0B0616; */
-    background-color: #dadada;
+    background-color: #E7F4FB;
     /* background-color: #40C057; */
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ html {
 .navs a{
     text-decoration: none;
     font-size: 1.4vw;
-    color: #3FA9F5;
+    color: #035096;
     font-family: mediumm;
     padding: 0vw 1vw;
     /* border-bottom: 0.2vw solid transparent; */
@@ -175,7 +175,7 @@ html {
     content: "";
     width: 100%;
     height: 0.15vw;
-    background-color: black;
+    background-color: #035096;
     position: absolute;
     bottom: -8%;
     left: 0%;
@@ -556,7 +556,7 @@ html {
 }
 
 #right-text h1{
-    color: #ffffffe7;
+    color: #E7F4FB;
 }
 
 
@@ -797,7 +797,7 @@ html {
 
 #top-div h1{
     font-size: 3vw;
-    color: #ffffffe7;
+    color: #E7F4FB;
     margin-top: 2vw;
 }
 
@@ -872,7 +872,7 @@ html {
 }
 
 #second-circle{
-    background-color: #40C057;
+    background-color: #3FA9F5;
 }
 
 .proc-circle:hover .circle-inside{
@@ -880,7 +880,7 @@ html {
 }
 
 .proc-circle:hover #second-inside-circle{
-    border-color: #40C057;
+    border-color: #3FA9F5;
 }
 
 
@@ -1047,158 +1047,6 @@ html {
 }
 
 
-Our Work And Projects
-
-#page7{
-    width: 100%;
-    height: 120vh;
-    background-image: url(./Images/Project-bg.webp);
-    background-size: cover;
-    background-position: center;
-    padding: 5vw 5vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#page7-top-container{
-    width: 50%;
-    height: 40%;
-    text-align: center;
-}
-
-#page7-top-container h1{
-    margin-top: 0.4vw;
-    font-size: 3vw;
-}
-
-#page7-top-container p{
-    line-height: 1.9vw;
-    margin-top: 0.6vw;
-}
-
-#page7-bottom-container{
-    width: 100%;
-    height: 60%;
-    white-space: nowrap;
-    overflow-y: hidden;
-    overflow-x: auto;
-    padding: 2vw 0vw;
-}
-
-#page7-bottom-container::-webkit-scrollbar{
-    display: none;
-}
-
-.page7-project-container{
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    margin-left: 2vw;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.3vw;
-}
-
-
-/* Page7 project Container Background images */
-
-/* .page7-project-container:nth-child(1){
-    background-image: url(./Images/Project_img/Instagram-img2.webp);
-    background-size: cover;
-    background-position: center;
-}
-
-.page7-project-container:nth-child(2){
-    background-image: url(./Images/Project_img/SigniFico-Img1.webp);
-    background-size: cover;
-    background-position: center;
-}
-
-.page7-project-container:nth-child(3){
-    background-image: url(./Images/Project_img/HotelOdisej.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(4){
-    background-image: url(./Images//Project_img/MyPortfolio.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(5){
-    background-image: url(./Images//Project_img/NetrixWebsite.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(6){
-    background-image: url(./Images/Project_img/Endasmu.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(7){
-    background-image: url(./Images/Project_img/PremierWebsite.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(8){
-    background-image: url(./Images/Project_img/HogiWebsite.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-child(9){
-    background-image: url(./Images/Project_img/Portfolio2.webp);
-    background-size: cover;
-    background-position: center;
-}
-.page7-project-container:nth-last-child(1){
-    background-image: url(./Images/Project_img/modernwebsite.webp);
-    background-size: cover;
-    background-position: center;
-}
-
-.project-overlay{
-    width: 100%;
-    height: 100%;
-    background-color: #00000090;
-}
-
-.page7-project-container a img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-
-.hidden-check-box{
-    width: 100%;
-    height: 20%;
-    background: linear-gradient(transparent, #252525);
-    position: absolute;
-    bottom: -20%;
-    transition: all ease 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.2vw;
-    isolation: isolate;
-}
-
-.hidden-check-box h4{
-    font-family: regular;
-    font-size: 1.2vw;
-    color: whitesmoke;
-    letter-spacing: 0.1vw;
-}
-
-.hidden-check-box img{
-    width: 2vw;
-    border-radius: 0.2vw;
-}
-
-.page7-project-container:hover .hidden-check-box{
-    bottom: 0%;
-} */
-
 /* Contact Us Page 8  */
 
 .contact-us{
@@ -1312,7 +1160,8 @@ Our Work And Projects
 }
 
 .about-us img{
-    width: 14vw;
+    width: 16vw;
+    transform: translateX(-1.5vw);
 }
 
 .about-us p{
@@ -1328,6 +1177,7 @@ Our Work And Projects
     display: flex;
     align-items: center;
     gap: 2vw;
+    transform: translateX(1vw);
 }
 
 .about-icons img{
@@ -1417,7 +1267,7 @@ Our Work And Projects
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #6699FF;
+    background-color: #035096;
     border: none;
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;

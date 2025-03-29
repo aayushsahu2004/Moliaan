@@ -65,9 +65,9 @@
     width: 33.4%;
     height: 100%;
     border: none;
-    color: #E7F4FB;
+    color: #035096;
     cursor: pointer;
-    background-color: #10102E;
+    background-color: #E7F4FB;
     transition: all ease 0.2s;
     font-size: 1.2vw;
     font-family: mediumm;
@@ -75,6 +75,7 @@
 }
 
 #button1{
+    color: #E7F4FB;
     background-color: #035096;
 }
 
