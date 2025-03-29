@@ -124,7 +124,7 @@ html {
     width: 100%;
     height: 4vw;
     /* background-color: #0B0616; */
-    background-color: #ff9900;
+    background-color: #dadada;
     /* background-color: #40C057; */
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ html {
 .navs a{
     text-decoration: none;
     font-size: 1.4vw;
-    color: white;
+    color: #3FA9F5;
     font-family: mediumm;
     padding: 0vw 1vw;
     /* border-bottom: 0.2vw solid transparent; */
@@ -270,7 +270,7 @@ html {
 }
 
 .text h1 span{
-    color: #ff9900;
+    color: #035096;
 }
 
 .text p{
@@ -319,7 +319,7 @@ html {
 }
 
 .menu a:hover{
-    color: #ff9900;
+    color: #035096;
 }
 
 
@@ -352,14 +352,14 @@ html {
 .separator .dot{
     width: 0.5vw;
     height: 0.5vw;
-    background-color: #ff9900;
+    background-color: #035096;
     border-radius: 50%;
 }
 
 .separator .line{
     width: 5vw;
     height: 0.2vw;
-    background-color: #ff9900;
+    background-color: #035096;
 }
 
 /* Each Page Main Heading and Paragraph */
@@ -371,7 +371,7 @@ html {
     text-transform: capitalize;
 }
 .main-heading span{
-    color: #ff9900;
+    color: #035096;
 }
 
 .paragraph{
@@ -387,20 +387,20 @@ html {
 .buttons{
     padding: 1vw 2.5vw;
     color: white;
-    background-color: #ff9900;
+    background-color: #035096;
     font-size: 1.2vw;
     letter-spacing: 0.08vw;
     font-family: mediumm;
     border-radius: 1vw;
     cursor: pointer;
-    border: 0.1vw solid #ff9900;
+    border: 0.1vw solid #035096;
     transition: all ease 0.3s;
 }
 
 .buttons:hover{
     background-color: white;
-    border: 0.1vw solid #ff9900;
-    color: #ff9900;
+    border: 0.1vw solid #035096;
+    color: #035096;
 }
 
 /* Page2 About Us us  */
@@ -683,7 +683,7 @@ html {
 }
 
 .serv-container:hover .circle{
-    background-color: #ff9900;
+    background-color: #035096;
 }
 
 .serv-container:hover .circle .c-img2{
@@ -868,7 +868,7 @@ html {
 .small-circle{
     width: 5.5vw;
     height: 5.5vw;
-    background-color: #ff9900;
+    background-color: #035096;
     border-radius: 50%;
     position: absolute;
     top: -5%;
@@ -889,7 +889,7 @@ html {
 }
 
 .proc-circle:hover .circle-inside{
-    border-color: #ff9900;
+    border-color: #035096;
 }
 
 .proc-circle:hover #second-inside-circle{
@@ -1027,7 +1027,7 @@ html {
 
 .details-item h2, h3{
     font-family: boldd;
-    color: #ff9900;
+    color: #035096;
     font-size: 3vw;
     letter-spacing: 0.08vw;
 }
@@ -1378,7 +1378,7 @@ Our Work And Projects
 }
 
 .footer-link:hover{
-    color: #ff9900;
+    color: #035096;
 }
 
 .footer-services{
