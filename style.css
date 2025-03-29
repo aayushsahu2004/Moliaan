@@ -22,7 +22,7 @@
 html ,body{
     width: 100%;
     height: fit-content;
-    background-color: #dadada;
+    background-color: #E7F4FB;
 }
 
 html {
@@ -60,7 +60,7 @@ html {
 .page1 #nav1{
     width: 100%;
     height: 4vw;
-    background-color: #1B1F2E;
+    background-color: #045498;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ html {
 .text-heading h2{
     font-size: 1vw;
     font-weight: 500;
-    color: white;
+    color: #E7F4FB;
     font-family: mediumm;
     font-style: normal;
     letter-spacing: 0.03vw;
@@ -262,7 +262,7 @@ html {
 
 
 .text h1{
-    color: white;
+    color: #E7F4FB;
     font-family: boldd;
     font-size: 3.5vw;
     letter-spacing: 0.1vw;
@@ -274,7 +274,7 @@ html {
 }
 
 .text p{
-    color: white;
+    color: #E7F4FB;
     font-family: regular;
     font-size: 1.3vw;
     letter-spacing: 0.15vw;
@@ -283,7 +283,7 @@ html {
 
 .text a{
     text-decoration: none;
-    color: white;
+    color: #E7F4FB;
     font-family: regular;
     font-size: 1.3vw;
     letter-spacing: 0.15vw;
@@ -314,7 +314,7 @@ html {
     font-weight: 500;
     font-family: mediumm;
     margin-bottom: 5vw;
-    color: white;
+    color: #E7F4FB;
     padding: 2vw 5vw;
 }
 
@@ -386,7 +386,7 @@ html {
 /* Button Code */
 .buttons{
     padding: 1vw 2.5vw;
-    color: white;
+    color: #E7F4FB;
     background-color: #035096;
     font-size: 1.2vw;
     letter-spacing: 0.08vw;
@@ -398,7 +398,7 @@ html {
 }
 
 .buttons:hover{
-    background-color: white;
+    background-color: #E7F4FB;
     border: 0.1vw solid #035096;
     color: #035096;
 }
@@ -561,7 +561,7 @@ html {
 
 
 #right-text p{
-    color: #c6c6c6;
+    color: #E7F4FB;
 }
 
 #bottom-text{
@@ -592,7 +592,7 @@ html {
     font-family: regular;
     font-size: 1.1vw;
     letter-spacing: 0.05vw;
-    color: #e3e3e3;
+    color: #E7F4FB;
 }
 
 /* Page 4 Service Page All Code Start from Here  */
@@ -716,11 +716,6 @@ html {
     /* opacity: 0.8; */
 }
 
-.serv-container:hover #bg-img{
-    bottom: 0;
-    right: 0;
-}
-
 .services .serv-container:hover{
     scale: 1.03;
 }
@@ -771,14 +766,6 @@ html {
     transition: all ease 0.3s;
 }
 
-.services .serv-container:hover .serv-text h2{
-    color: whitesmoke;
-}
-
-.services .serv-container:hover .serv-text p{
-    color: #FAFBFD;
-}
-
 
 /* Page5 Process Page */
 #page5{
@@ -790,7 +777,7 @@ html {
 }
 
 #overlay h4{
-    color: white;
+    color: #E7F4FB;
 }
 
 #page5 #overlay{
@@ -826,7 +813,7 @@ html {
 .proc-circle{
     width: 25vw;
     height: 25vw;
-    background-color: white;
+    background-color: #E7F4FB;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -881,7 +868,7 @@ html {
 .small-circle h2{
     font-family: boldd;
     font-size: 3vw;
-    color: white;
+    color: #E7F4FB;
 }
 
 #second-circle{
@@ -1054,7 +1041,7 @@ html {
 
 .details-item p{
     font-family: mediumm;
-    color: white;
+    color: #E7F4FB;
     font-size: 1.2vw;
     letter-spacing: 0.08vw;
 }
@@ -1242,7 +1229,7 @@ Our Work And Projects
 }
 
 #top-text-container h1, #top-text-container h4{
-    color: white;
+    color: #E7F4FB;
 }
 
 #top-text-container p{
@@ -1254,7 +1241,8 @@ Our Work And Projects
     width: 100%;
     height: 40%;
     margin-top: 7vw;
-    background-image: url(./Images/contact-us-bottombg.webp);
+    background-color: #035096;
+    /* background-image: url(./Images/contact-us-bottombg.webp); */
     background-size: cover;
     padding: 5.5vw;
     border-radius: 0.5vw;
@@ -1279,7 +1267,7 @@ Our Work And Projects
 .contact-details .img-icon{
     width: 5vw;
     height: 5vw;
-    background-color: #6699FF;
+    background-color: #E7F4FB;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1328,7 +1316,7 @@ Our Work And Projects
 }
 
 .about-us p{
-    color: #c6c6c6;
+    color: #E7F4FB;
     font-size: 1.2vw;
     line-height: 1.8vw;
     margin-top: 0.3vw;
@@ -1362,7 +1350,7 @@ Our Work And Projects
 
 .footer-heading{
     font-size: 2.4vw;
-    color: white;
+    color: #E7F4FB;
     font-family: mediumm;
     letter-spacing: 0.15vw;
     margin-top: 0.9vw;
@@ -1370,7 +1358,7 @@ Our Work And Projects
 
 .footer-link{
     text-decoration: none;
-    color: #c6c6c6;
+    color: #E7F4FB;
     font-family: mediumm;
     font-size: 1.2vw;
     letter-spacing: 0.05vw;
@@ -1396,7 +1384,7 @@ Our Work And Projects
 }
 
 .subscribe p{
-    color: #c6c6c6;
+    color: #E7F4FB;
     font-size: 1.2vw;
     line-height: 1.8vw;
     margin-top: 3.4vw;
@@ -1416,6 +1404,7 @@ Our Work And Projects
     padding-left: 1vw;
     border: none;
     outline: none;
+    background-color: #E7F4FB;
     font-size: 1.2vw;
     font-family: mediumm;
     border-top-left-radius: 2vw;
@@ -1450,7 +1439,7 @@ Our Work And Projects
 }
 
 .footer-bottom p{
-    color: #a9a9a9;
+    color: #E7F4FB;
     font-size: 1.2vw;
 }
 
