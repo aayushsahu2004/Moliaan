@@ -588,7 +588,7 @@
 
     /* Page7 Our Work And Pojects Responsive Code */
 
-    #page7 {
+    /* #page7 {
         width: 100%;
         height: 80vh;
     }
@@ -621,7 +621,7 @@
         height: 90%;
         margin-left: 3.5vw;
         border-radius: 1vw;
-    }
+    } */
 
     /* Contact Us Page 8 Responsive Code */
 
@@ -864,7 +864,7 @@
 
     /* About-Page Page4 */
 
-    #about-page4{
+    /* #about-page4{
         width: 100%;
         height: fit-content !important;
     }
@@ -897,7 +897,7 @@
     }
     .bottom-div .buttons{
         padding: 3vw 5vw !important;
-    }
+    } */
 
     /* About Services Page */
 
@@ -1201,7 +1201,7 @@
     }
 
     #about-left .main-heading{
-        margin-top: 5vw;
+        margin-top: 6vw;
     }
 
     .about-right{
@@ -1222,7 +1222,7 @@
     }
 
     /* About Page4  */
-    #about-page4{
+    /* #about-page4{
         width: 100%;
         height: fit-content !important;
     }
@@ -1253,7 +1253,7 @@
     .bottom-div .buttons{
         font-size: 3vw;
         padding: 3vw 5vw !important;
-    }
+    } */
 
     /* about service page */
 
@@ -1273,5 +1273,5 @@
 
     .about-service .serv-container .circle{
         top: -8%;
-    }
+    } 
 }
